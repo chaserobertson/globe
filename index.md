@@ -16,6 +16,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2hhc2Vyb2JlcnRzb24iLCJhIjoiY2toOG9oenkwMG5iMDJybW1tY3ViY2JhbyJ9.HKVBfde-Inwc-WIjiU7V0Q';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script>
 ## Header 2
 ### Header 3
 
