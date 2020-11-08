@@ -8,14 +8,6 @@ You can use the [editor on GitHub](https://github.com/chaserobertson/globe/edit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
 <div id='map' style='width: 400px; height: 300px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiY2hhc2Vyb2JlcnRzb24iLCJhIjoiY2toOG9oenkwMG5iMDJybW1tY3ViY2JhbyJ9.HKVBfde-Inwc-WIjiU7V0Q';
@@ -24,6 +16,15 @@ container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11'
 });
 </script>
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
 ## Header 2
 ### Header 3
 
